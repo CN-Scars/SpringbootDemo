@@ -10,7 +10,7 @@ import java.util.*;
 //注解，是给机器看的
 @Controller //控制类，处理http请求
 //设置一级路径
-@RequestMapping("/user")
+@RequestMapping("/User")
 public class userController {
     //设置二级路径，同时设置请求方式
     @GetMapping("/test")
